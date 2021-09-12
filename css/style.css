@@ -23,9 +23,9 @@ Table Of Contents:
 :root {
 	--primary: #1c262f;
 	--primary-light: #212d37;
-	--secondary: #007ab3d0;
-	--tertiary: #007ab3d0;
-	--gradient: linear-gradient(to right, #007ab3d0, #007ab3d0);
+	--secondary: #0ee951;
+	--tertiary: #00dabf;
+	--gradient: linear-gradient(to right, #0ee951, #00dabf);
 }
 
 h1,
@@ -107,8 +107,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#007ab3d0),
-		to(#007ab3d0)
+		from(#0ee951),
+		to(#00dabf)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -227,8 +227,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#007ab3d0),
-		to(#007ab3d0)
+		from(#0ee951),
+		to(#00dabf)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -369,7 +369,7 @@ li {
 	border-image-slice: 1;
 	border-width: 2px;
 	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px #007ab3d0;
+	box-shadow: 5px 5px 0px 0px #0ee951;
 }
 
 
